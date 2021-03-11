@@ -9,14 +9,15 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Surfboarden</a></li>
-                <li><a href="#">Item Shop</a></li>
-                <li><a href="#">Surflessen</a></li>
-                <li><a href="#">Surfticket</a></li>
-                <li><a href="#">Info</a></li>
-                <li><a href="#" id="winkelwagen">Winkelwagen</a></li>
+                <li><a href="#" class="nav">Home</a></li>
+                <li><a href="#" class="nav">Contact</a></li>
+                <li><a href="#" class="nav">Surfboarden</a></li>
+                <li><a href="#" class="nav">Item Shop</a></li>
+                <li><a href="#" class="nav">Surflessen</a></li>
+                <li><a href="#" class="nav">Surfticket</a></li>
+                <li><a href="#" class="nav">Info</a></li>
+				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blank_">
+                <li><img src="winkelwagen.png" alt="winkelwagen" height="40px" width="40px" id="winkelwagen" class="nav"> </a></li>
             </ul>
         </nav>
     </header>
