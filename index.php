@@ -47,13 +47,14 @@
                 <img class="mySlides" src="surfboard2.jpg" style="width:100%">
             </div>
         <?php
-
+        // bericht van de dag generator
         $random = rand(0,4);
         $berichten = array ("test1", "test2", "test3", "test4", "test5");
         echo "<p id='bericht'> Bericht van de dag: $berichten[$random] </p>";
 
         ?>
         <script>
+            // java script voor de plaatjes
             var myIndex = 0;
             carousel();
 
@@ -66,7 +67,7 @@
                 myIndex++;
                 if (myIndex > x.length) {myIndex = 1}
                 x[myIndex-1].style.display = "block";
-                setTimeout(carousel, 4000); // Change image every 4 seconds
+                setTimeout(carousel, 4000); // veranderd plaatje elke 4 seconden
             }
         </script>
 
