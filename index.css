@@ -31,6 +31,7 @@ li{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2vw;
+	margin-bottom: 6px;
 }
 
 a:hover{
@@ -40,4 +41,13 @@ a:hover{
 
 #winkelwagen{
     margin-left: 300px;
+}
+
+.winkel {
+	margin-bottom: 6px;
+}
+
+#logo{
+	margin-top: 6px;
+	margin-left: -40px;
 }
