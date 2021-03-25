@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Surf Shack</title>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="new.css">
 		<style>
 		p {
                 color: white;
@@ -17,10 +17,13 @@
 				}
 		</style>
 	</head>
-	<header>
+ <header>
+   <div id="logo">
+	<img src="logo.png" alt="het logo">
+   </div>
+<div class="menu">
         <nav>
             <ul>
-				<li><img src="logo.png" alt="logo" height="55px" width="55px" id="logo"></li>
                 <li><a href="index.php" class="nav">Home</a></li>
                 <li><a href="contact.php" class="nav">Contact</a></li>
                 <li><a href="surfboarden.php" class="nav">Surfboarden</a></li>
@@ -28,10 +31,15 @@
                 <li><a href="surflessen.php" class="nav">Surflessen</a></li>
                 <li><a href="surfticket.php" class="nav">Surfticket</a></li>
                 <li><a href="info.php" class="nav">Info</a></li>
-                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen" height="40px" width="40px" class="nav"> </a></li>
-            </ul>
+              
+           </ul>
         </nav>
-    </header>
+    </div>
+	<div id="winkelwagen">
+	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
+   </div>
+	</header>
+	
 	<body>
 	<p>test</p>
 	</body>

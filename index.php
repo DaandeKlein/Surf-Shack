@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Surf Shack</title>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="new.css">
         <style>
             p {
                 color: white;
@@ -25,7 +25,12 @@
             }
         </style>
     </head>
-    <header>
+   <body>
+   <header>
+   <div id="logo">
+	<img src="logo.png" alt="het logo">
+   </div>
+<div class="menu">
         <nav>
             <ul>
                 <li><a href="index.php" class="nav">Home</a></li>
@@ -35,11 +40,17 @@
                 <li><a href="surflessen.php" class="nav">Surflessen</a></li>
                 <li><a href="surfticket.php" class="nav">Surfticket</a></li>
                 <li><a href="info.php" class="nav">Info</a></li>
-                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen" height="40px" width="40px" class="nav"> </a></li>
-            </ul>
+              
+           </ul>
         </nav>
-    </header>
-<body>
+    </div>
+	
+	 <div id="winkelwagen">
+	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
+   </div>
+	</header>
+	
+<div id="content">
         <p id="overons">Welkom bij Surf Shack.<br />Op onze website is er van alles te doen.<br />U kunt hier surfboarden bestellen,<br /> surflessen volgen en nog veel meer</p>
 
             <div class="w3-content w3-section" style="max-width:500px">
@@ -65,6 +76,6 @@
                 setTimeout(carousel, 4000); // Change image every 4 seconds
             }
         </script>
-
+</div>
 </body>
 </html>
