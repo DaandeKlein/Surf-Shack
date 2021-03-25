@@ -46,9 +46,13 @@
                 <img class="mySlides" src="surfboard1.jpg" style="width:100%">
                 <img class="mySlides" src="surfboard2.jpg" style="width:100%">
             </div>
+        <?php
 
-        <p id="bericht"> Bericht van de dag: </p>
+        $random = rand(0,4);
+        $berichten = array ("test1", "test2", "test3", "test4", "test5");
+        echo "<p id='bericht'> Bericht van de dag: $berichten[$random] </p>";
 
+        ?>
         <script>
             var myIndex = 0;
             carousel();
