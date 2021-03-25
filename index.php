@@ -42,12 +42,12 @@
                 <li><a href="info.php" class="nav">Info</a></li>
               
            </ul>
+            <div id="winkelwagen">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
+            </div>
         </nav>
     </div>
-	
-	 <div id="winkelwagen">
-	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
-   </div>
+
 	</header>
 	
 <div id="content">

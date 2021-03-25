@@ -46,7 +46,8 @@ height: 70px;
 .menu li{
     display: flex;
 	align-items: center;
-	margin-left: 25px;
+	margin-top: 10px;
+	margin-left: 40px;
 	justify-content: center;
 	align-item: center;
 	float: left;
