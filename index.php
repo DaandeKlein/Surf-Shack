@@ -37,7 +37,7 @@
                 <li><a href="#" class="nav">Item Shop</a></li>
                 <li><a href="#" class="nav">Surflessen</a></li>
                 <li><a href="#" class="nav">Surfticket</a></li>
-                <li><a href="#" class="nav">Info</a></li>
+                <li><a href="info.php" class="nav">Info</a></li>
                 <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen" height="40px" width="40px" class="nav"> </a></li>
             </ul>
         </nav>
