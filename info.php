@@ -7,17 +7,16 @@
         <link rel="stylesheet" href="new.css">
 		<style>
 		p {
-                color: white;
                 font-size: 24px;
                 text-align: centre;
-                padding-left: 70px;
 				}
 		#titel {
 				text-align: center;
 				}
 		</style>
 	</head>
- <header>
+<body>
+   <header>
    <div id="logo">
 	<img src="logo.png" alt="het logo">
    </div>
@@ -33,14 +32,16 @@
                 <li><a href="info.php" class="nav">Info</a></li>
               
            </ul>
+            <div id="winkelwagen">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
+            </div>
         </nav>
     </div>
-	<div id="winkelwagen">
-	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
-   </div>
 	</header>
-	
-	<body>
-	<p>test</p>
+	<div id="content">
+	<h1>Ons bedrijf</h1>
+	<p>Dit bedrijf is opgericht in 2021 door 3 jongens genaamd Romano, Daan en Valentino. Ons bedrijf is opgericht om kwaliteit spullen en goede informatie te leveren over surfen. Wij geven informatie over de beste plekken om te gaan buiten/binnen surfen. Wij leveren kwaliteit surfborden, wetsuits en surftickets die kunnen worden gebruikt om ergens te gaan binnensurfen! U kunt ook gebuik maken van onze map waar de beste plekken op staan on te gaan surfen.</p>
+	<img src="surfboard4.jpg" alt="surfen">
+	</div>
 	</body>
 </html>
