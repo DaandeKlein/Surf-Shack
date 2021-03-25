@@ -16,17 +16,14 @@
                 padding-top: 30px;
             }
             #bericht {
-                padding-top: 140px;
+                padding-top: 0px;
+            }
+            .mySlides {
+                display:none;
+                padding-left: 850px;
+                margin-top: -170px;
             }
         </style>
-        <script type="text/javascript">
-            $(function () {
-                $('.fadein img:gt(0)').hide();
-                setInterval(function () {
-                    $('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');
-                }, 2000);
-            });
-        </script>
     </head>
     <header>
         <nav>
@@ -43,7 +40,31 @@
         </nav>
     </header>
 <body>
-    <p id="overons">Welkom bij Surf Shack.<br />Op onze website is er van alles te doen.<br />U kunt hier surfboarden bestellen,<br /> surflessen volgen en nog veel meer</p>
-    <p id="bericht"> Bericht van de dag: </p>
+        <p id="overons">Welkom bij Surf Shack.<br />Op onze website is er van alles te doen.<br />U kunt hier surfboarden bestellen,<br /> surflessen volgen en nog veel meer</p>
+
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="surfboard1.jpg" style="width:100%">
+                <img class="mySlides" src="surfboard2.jpg" style="width:100%">
+            </div>
+
+        <p id="bericht"> Bericht van de dag: </p>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 4000); // Change image every 4 seconds
+            }
+        </script>
+
 </body>
 </html>
