@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html lang="nl">
-<<<<<<< HEAD
 <head>
     <meta charset="utf-8">
     <title>Surf Shack</title>
@@ -16,7 +15,6 @@
         }
     </style>
 </head>
-=======
     <head>
         <meta charset="utf-8">
         <title>Surf Shack</title>
@@ -31,7 +29,6 @@
 				}
 		</style>
 	</head>
->>>>>>> aebf17e0783cee8eabdb636e3a911c46af3db747
 <body>
 <header>
     <div id="logo">
