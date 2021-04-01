@@ -76,4 +76,23 @@ a:hover{
 
 }
 
+#content h1 {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	color: white;
+}
 
+#content p {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	color: white;
+}
+
+#content img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}

@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Surf Shack</title>
-        <link rel="stylesheet" href="new.css">
+        <link rel="stylesheet" href="info.css">
 		<style>
 		p {
                 font-size: 24px;
