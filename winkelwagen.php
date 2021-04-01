@@ -8,10 +8,10 @@
 		<style>
 		p {
                 font-size: 24px;
-                text-align: centre;
+                text-align: center;
 				}
 		#titel {
-				text-align: centre;
+				text-align: center;
 				}
 		</style>
 	</head>
