@@ -11,7 +11,7 @@
                 text-align: centre;
 				}
 		#titel {
-				text-align: center;
+				text-align: centre;
 				}
 		</style>
 	</head>
