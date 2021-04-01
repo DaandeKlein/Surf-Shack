@@ -43,7 +43,7 @@
               
            </ul>
             <div id="winkelwagen">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
+                <a href="winkelwagen.php" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
             </div>
         </nav>
     </div>
