@@ -74,10 +74,25 @@ a:hover{
 }
 #content{
 
-<<<<<<< HEAD
-}
-=======
 }
 
+#content h1 {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	color: white;
+}
 
->>>>>>> aebf17e0783cee8eabdb636e3a911c46af3db747
+#content p {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	color: white;
+}
+
+#content img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}

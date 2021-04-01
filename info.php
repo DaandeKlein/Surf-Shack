@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="nl">
+<<<<<<< HEAD
 <head>
     <meta charset="utf-8">
     <title>Surf Shack</title>
@@ -15,6 +16,22 @@
         }
     </style>
 </head>
+=======
+    <head>
+        <meta charset="utf-8">
+        <title>Surf Shack</title>
+        <link rel="stylesheet" href="info.css">
+		<style>
+		p {
+                font-size: 24px;
+                text-align: centre;
+				}
+		#titel {
+				text-align: centre;
+				}
+		</style>
+	</head>
+>>>>>>> aebf17e0783cee8eabdb636e3a911c46af3db747
 <body>
 <header>
     <div id="logo">
@@ -33,7 +50,7 @@
 
             </ul>
             <div id="winkelwagen">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
+                <a href="winkelwagen.php" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
             </div>
         </nav>
     </div>

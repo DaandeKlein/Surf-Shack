@@ -8,78 +8,78 @@
 }
 
 body,html{
-    margin: 0;
-    padding: 0;
-    background-color: #00719c;
+	margin: 0;
+	padding: 0;
+	background-color: #00719c;
 }
 
 header{
-    height: 70px;
+	height: 70px;
 }
 
 #logo{
-    height: 70px;
-    width: 70px;
-    background-color: #00415a;
-    float: left;
+	height: 70px;
+	width: 70px;
+	background-color: #00415a;
+	float: left;
 
 }
 #logo img {
-    height: 70px;
-    width: 70px;
+	height: 70px;
+	width: 70px;
 }
 
 #winkelwagen{
-    height: 70px;
-    width: 70px;
-    background-color: #00415a;
-    float: right;
+	height: 70px;
+	width: 70px;
+	background-color: #00415a;
+	float: right;
 
 }
 
 #winkelwagen img{
-    height: 70px;
+	height: 70px;
 }
 
 .menu{
-    height: 70px;
-    background-color: #00415a;
+	height: 70px;
+	background-color: #00415a;
 }
 
 .menu ul{
-    width: auto;
-    float: left;
+	width: auto;
+	float: left;
 
 }
 
 .menu li{
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 40px;
-    justify-content: center;
-    align-item: center;
-    float: left;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	margin-left: 40px;
+	justify-content: center;
+	align-item: center;
+	float: left;
 
 }
 
 .menu li img{
-    height :40px;
-    display: flex;
+	height :40px;
+	display: flex;
 }
 
 .nav{
-    text-align: center;
-    color: #ffffff;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2vw;
-    margin-bottom: 6px;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2vw;
+	margin-bottom: 6px;
 
 }
 a:hover{
-    color: #00b8ff;
-    transition: 0.5s;
+	color: #00b8ff;
+	transition: 0.5s;
 }
 #content{
 
