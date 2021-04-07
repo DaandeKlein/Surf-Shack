@@ -38,7 +38,7 @@
 	</header>
 	<div class="card">
 	<img src="indoor1.jpg" alt="PepSports" style="width:100%">
-	<h1>Indoor surfplek</h1>
+	<h1>PepSports</h1>
 	<p class="price">$19.99 p.p</p>
 	<p>hier komt info over de plek</p>
 </div>
