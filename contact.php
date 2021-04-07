@@ -25,7 +25,7 @@
 
             </ul>
             <div id="winkelwagen">
-                <a href="winkelwagen.php" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
+                <a href="winkelwagen.php" id="winkelwagen"><img src="winkelwagen.png" alt="winkelwagen"></a>
             </div>
         </nav>
     </div>
