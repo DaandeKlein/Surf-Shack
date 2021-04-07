@@ -76,11 +76,20 @@ a:hover{
 
 }
 
+.container {
+	height: 300px;
+	margin-right: auto;
+    margin-left: auto;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 200px;
+  height: 450px;
   text-align: center;
   font-family: arial;
+  float: left;
+  margin-left: 50px;
 }
 
 .price {
@@ -97,5 +106,14 @@ a:hover{
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-size: 18px;
+  font-size: 13px;
+}
+
+.photo {
+	height: 200px;
+	width: 200px;
+}
+
+.informatie {
+	font-size: 18px;
 }

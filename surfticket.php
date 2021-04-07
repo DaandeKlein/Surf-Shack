@@ -36,11 +36,25 @@
         </nav>
     </div>
 	</header>
+<div class="container">
 	<div class="card">
-	<img src="indoor1.jpg" alt="PepSports" style="width:100%">
+	<img src="indoor1.jpg" alt="PepSports" style="width:100%" class="photo">
 	<h1>PepSports</h1>
 	<p class="price">$19.99 p.p</p>
-	<p>hier komt info over de plek</p>
+	<b><p class="informatie">Een mooie binnensurf plek waar u kunt leren surfen</p></b>
+</div>
+	<div class="card">
+	<img src="surfplek.jpg" alt="Texel" style="width:100%" class="photo">
+	<h1>Texel</h1>
+	<p class="price">$25.00 p.p</p>
+	<b><p class="informatie">Een mooi eiland omringd door zee waar u kunt surfen</p></b>
+</div>
+	<div class="card">
+	<img src="indoor2.jpg" alt="PepSports" style="width:100%" class="photo">
+	<h1>PepSports</h1>
+	<p class="price">$45.00 p.p</p>
+	<b><p class="informatie">Een mooie binnensurf plek waar u kunt leren surfen en waar u als eervaren surfer goede golven kunt pakken</p></b>
+</div>
 </div>
 </body>
 </html>
