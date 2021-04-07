@@ -40,12 +40,10 @@
                 <li><a href="surflessen.php" class="nav">Surflessen</a></li>
                 <li><a href="surfticket.php" class="nav">Surfticket</a></li>
                 <li><a href="info.php" class="nav">Info</a></li>
-
             </ul>
             <div id="winkelwagen">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
+                <a href="winkelwagen.php" id="winkelwagen" target="blank_"><img src="winkelwagen.png" alt="winkelwagen"></a>
             </div>
         </nav>
     </div>
-
 </header>
